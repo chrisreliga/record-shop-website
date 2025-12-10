@@ -9,8 +9,6 @@
       href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
       rel="stylesheet"
@@ -26,40 +24,50 @@
     <title>Red Dice Records</title>
   </head>
   <body>
-    <!-- Navbar -->
-    <nav id="nav-bar">
-      <div class="nav-logo">
-        <a href="#">Red Dice Records Co.</a>
+    <header class="hero">
+      <!-- Mobile Hamburger Menu -->
+      <div class="mobile-navbar">
+        <a href="#" class="mobile-nav-logo">Red Dice Records Co.</a>
+        <div class="mobile-hamburger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </div>
 
-      <ul class="nav-menu-list" id="nav-menu-list">
-        <li><a href="index.html" class="nav-menu-item">Home</a></li>
-        <li><a href="about.html" class="nav-menu-item">About</a></li>
-        <li><a href="contact.html" class="nav-menu-item">Contact</a></li>
-        <li><a href="shop.html" class="nav-menu-item">Shop</a></li>
-      </ul>
-    </nav>
+      <!-- Navbar -->
+      <nav id="navbar">
+        <div class="nav-logo">
+          <a href="#">Red Dice Records Co.</a>
+        </div>
 
-    <header class="hero">
-      <div class="hero-text">
+        <ul class="nav-menu-list" id="nav-menu-list">
+          <li><a href="index.html" class="nav-menu-item">Home</a></li>
+          <li><a href="about.html" class="nav-menu-item">About</a></li>
+          <li><a href="contact.html" class="nav-menu-item">Contact</a></li>
+          <li><a href="shop.html" class="nav-menu-item">Shop</a></li>
+        </ul>
+      </nav>
+
+      <div class="hero-content">
         <h1>
           Downtown <span class="hero-h1">Phoenix</span>-based Record Label
         </h1>
-        <p>
+        <p class="desktop-hero-description">
           Discover the sounds of Phoenix at Red Dice Records. From rare vinyl
           finds to the latest releases, we bring music lovers together in the
           heart of downtown.
         </p>
-      </div>
 
-      <div class="hero-img">
-        <h2>Dijon: "Baby" <span>Out Now</span></h2>
-        <img src="/images/dijon.jpg" alt="Dijon Album Cover" />
-        <a href="">Order Here</a>
+        <div class="baby-album-img">
+          <h2>Dijon: "Baby" <span>Out Now</span></h2>
+          <img src="/images/dijonbaby.png" alt="Baby by Dijon" />
+          <a href="">Order Here</a>
+        </div>
       </div>
     </header>
 
-    <!-- Top Sellers -->
+    <!-- Collections -->
     <div class="collections-container">
       <h2>Collections</h2>
       <div class="collections cards">

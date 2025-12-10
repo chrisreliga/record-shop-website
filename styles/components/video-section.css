@@ -1,0 +1,75 @@
+/* Video Section */
+.artist-spotlight {
+  background-image: url(/images/record-collection.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+.artist-spotlight::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #000000a9;
+  z-index: -1;
+}
+
+.artist-spotlight.content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.artist-spotlight-header {
+  color: #fdf6e3;
+  margin-bottom: 1rem;
+}
+
+.artist-spotlight-header h2 {
+  font-size: 6rem;
+  margin-bottom: 2rem;
+  color: #fdf6e3;
+}
+
+.artist-spotlight-header p {
+  font-size: 3rem;
+  color: #fdf6e3;
+}
+
+.artist-spotlight-header span {
+  color: var(--primary-red);
+}
+
+.artist-spotlight-img img {
+  height: 55rem;
+  width: 90rem;
+  border-radius: 0.7rem;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.artist-spotlight-img p {
+  font-size: 3rem;
+  color: #fdf6e3;
+  margin-top: 2rem;
+}
+
+#play-btn {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  z-index: 2;
+  font-size: 8rem;
+  color: var(--primary-red);
+}
+
+#play-btn:hover {
+  cursor: pointer;
+  scale: 1.1;
+}

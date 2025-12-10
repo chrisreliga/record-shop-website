@@ -1,0 +1,28 @@
+/* Menu List */
+.menu-list.container {
+  color: #a81f19;
+  padding: 2rem 4rem 8rem 2rem;
+  background-color: #fdf6e3;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+.menu-list h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.menu-list ul {
+  list-style: none;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.menu-list li:hover {
+  cursor: pointer;
+  color: var(--primary-red);
+}
