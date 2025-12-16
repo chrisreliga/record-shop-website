@@ -46,11 +46,17 @@
 }
 
 .mobile-navbar {
+  position: fixed; /* stay on top */
+  top: 0; /* stick to top */
+  left: 0;
+  width: 100%; /* full width */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  text-align: center;
-  padding: 1rem;
+  padding: 1rem 2rem; /* horizontal padding */
+  background: #00000097;
+  z-index: 9999; /* above overlay */
+  box-sizing: border-box; /* ensure padding doesn’t break width */
 }
 
 .mobile-nav-logo {

@@ -1,5 +1,7 @@
 /* Top Sellers */
-.collections-container {
+
+/* OLD DESKTOP VERSION */
+/* .collections-container {
   padding-top: 2rem;
   background: #fdf6e3;
 }
@@ -54,4 +56,50 @@
 
 #price:hover {
   color: var(--primary-red);
+} */
+/* OLD DESKTOP VERSION */
+
+/* Mobile-First Layout*/
+.collections-container {
+  padding-top: 2rem;
+  background: #fdf6e3;
+}
+
+.collections-container h2 {
+  font-size: 3rem;
+  color: #2e2e2e;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.collections.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+}
+
+.collections.card img {
+  height: 25rem;
+  width: 25rem;
+  margin-bottom: 1rem;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  transition: 0.1s ease-in;
+}
+
+.collections.card a {
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-info a {
+  font-size: 1.75rem;
+  color: var(--section-sub-headers);
 }

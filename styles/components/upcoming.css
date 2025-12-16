@@ -1,5 +1,7 @@
 /* Upcoming Releases */
-.new-releases.container {
+
+/* OLD DESKTOP VERSION */
+/* .new-releases.container {
   padding: 4rem 4rem 8rem 4rem;
 }
 
@@ -60,4 +62,50 @@
 
 .album-card p:hover {
   color: #a81f19;
+} */
+/* OLD DESKTOP VERSION */
+
+/* MOBILE-FIRST LAYOUT */
+.new-releases.container {
+  padding: 2rem;
+}
+
+.new-releases-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.album-card img {
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+  display: block;
+  cursor: pointer;
+}
+
+.new-releases-header {
+  text-align: center;
+  font-size: 2rem;
+  color: #2e2e2e;
+}
+
+.album-card a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.album-card a h3 {
+  font-size: 2rem;
+  color: #2e2e2e;
+}
+
+.album-card h4 {
+  font-size: 1.75rem;
+  color: #3d3d3d;
+  font-style: italic;
+}
+
+.album-card p {
+  font-size: 2rem;
+  color: var(--primary-red);
 }

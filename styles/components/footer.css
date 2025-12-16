@@ -1,5 +1,6 @@
 /* Footer */
-footer {
+/* OLD DESKTOP VERSION */
+/* footer {
   background-color: var(--primary-red);
   color: #fdf6e3;
   padding: 1rem 12rem 1rem 12rem;
@@ -33,4 +34,38 @@ footer {
 
 .footer-icons ul li:hover {
   color: #5e120e;
+} */
+/* OLD DESKTOP VERSION */
+
+/* MOBILE-FIRST LAYOUT */
+footer {
+  background-color: var(--primary-red);
+  color: #fdf6e3;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.footer-content h3 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+ul.footer-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+ul.footer-icons li {
+  font-size: 1.75rem;
 }
